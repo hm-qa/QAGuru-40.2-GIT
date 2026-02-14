@@ -30,14 +30,11 @@ git checkout master
 git checkout new-branch
 
 git add .
-git commit -m ".gitignore was changed, conspect was added"
-
-git checkout master
-git checkout new-branch
+git commit -m ".gitignore was changed"
 
 git pull
 
-master merge into some_branch
+??master merge into some_branch
 rebase
 fetch
 
