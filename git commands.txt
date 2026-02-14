@@ -45,3 +45,8 @@ fetch
 
 ---------
 git config --list
+git help
+git --help
+git -h
+
+git -help
