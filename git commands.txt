@@ -37,7 +37,7 @@ git checkout new-branch
 
 git pull
 
-master merge into some_branch
+git merge master into some_branch
 rebase
 fetch
 
