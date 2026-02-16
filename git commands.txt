@@ -1,7 +1,9 @@
-----------------------------------
-          QA Guru 40.02
-           команды git
-----------------------------------
+------------------------------------
+           QA Guru 40.02
+            команды git
+------------------------------------
+https://github.com/qa-guru/knowledge-base/wiki/2.-Git.-GitHub.-%D0%9F%D0%BE%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC%D1%81%D1%8F
+
 git --version
 git config --global user.name
 git config --global user.email
@@ -15,13 +17,18 @@ dir /w
 cd ..
 git add build.gradle
 git rm --cached .gitignore
+https://www.toptal.com/developers/gitignore
+git rm --cached .
 
 git add .gitignore
 git add .
 
 git commit -m "init commit"
 git remote add origin git@github.com:hm-qa/QAGuru40-HW2-GIT.git
+git remote add origin <SSH-репозитория или HTML-репозитория>
 git push -u origin master
+git push -u origin <название ветки>
+git push origin <название ветки>
 
 git status
 git branch
@@ -30,16 +37,27 @@ git checkout master
 git checkout new-branch
 
 git add .
-git commit -m ".gitignore was changed"
+git commit -m ".gitignore was changed, conspect was added"
+
+git checkout master
+git checkout new-branch
 
 git pull
+
+git merge master into some_branch
+git merge <имя сливаемой ветки>
+
+$ git checkout master
+Switched to branch 'master'
+$ git merge feature
+Merge made by the 'recursive' strategy.
 
 git merge origin/master (or git merge master
 ?git merge master into some_branch (после git pull)
 rebase
 fetch
 
----------
+---------------
 git config --list
 
 git help
@@ -47,4 +65,11 @@ git --help
 git -h
 
 git -help
-----------------------------------
+---------------
+cd ~/.ssh
+dir
+ type id_rsa
+ cd ..
+
+ git clone + адрес ключа ssh в code
+------------------------------------
