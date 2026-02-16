@@ -52,6 +52,8 @@ Switched to branch 'master'
 $ git merge feature
 Merge made by the 'recursive' strategy.
 
+git merge origin/master (or git merge master
+?git merge master into some_branch (после git pull)
 rebase
 fetch
 
